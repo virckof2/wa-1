@@ -31,6 +31,7 @@ var ErrorModal = React.createClass({
             <button className="button" data-close="">Okay</button>
             <button className="button" data-close="">Okay</button>
             <button className="button" data-close="">Okay</button>
+            <button className="button" data-close="">Okay</button>
           </p>
         </div>
       );
