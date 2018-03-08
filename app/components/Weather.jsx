@@ -16,8 +16,7 @@ var Weather = React.createClass({
         temp: undefined,
         isLoading : false,
         errorMessage: undefined,
-        location: undefined,
-        temp: undefined
+        location: undefined
     }
   },
 
