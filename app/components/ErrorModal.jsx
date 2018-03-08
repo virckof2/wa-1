@@ -31,7 +31,17 @@ var ErrorModal = React.createClass({
           </p>
         </div>
       );
-
+      componentDidMount : function(){
+        var {title, message} = this.props;
+        var modalMarkup = (
+          <div id="error-modal" className="reveal tiny text-center" data-reveal="">
+            <h4>{title}</h4>
+            <p>{message}</p>
+            <p>
+              <button className="button" data-close="">Okay</button>
+            </p>
+          </div>
+        );
     // JQuery
     var $modal = $(ReactDOMServer.renderToString(modalMarkup));
     $(ReactDOM.findDOMNode(this)). html($modal);
