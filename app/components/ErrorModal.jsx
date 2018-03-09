@@ -41,9 +41,6 @@ var ErrorModal = React.createClass({
           <div id="error-modal" className="reveal tiny text-center" data-reveal="">
             <h4>{title}</h4>
             <p>{message}</p>
-            <p>
-              <button className="button" data-close="">Okay</button>
-            </p>
           </div>
         );
     // JQuery
