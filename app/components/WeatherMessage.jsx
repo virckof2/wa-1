@@ -13,15 +13,15 @@ var WeatherMessage = React.createClass({
 });
 
 
-// Using stateless functional components but now with arrow functions
-// -----------------------------------------
-// var WeatherMessage = (props) =>{
-//   return(
-//     <div>
-//       <h2>It's {props.temp}C in {props.location}</h2>
-//     </div>
-//   );
-// };
+Using stateless functional components but now with arrow functions
+-----------------------------------------
+var WeatherMessage = (props) =>{
+  return(
+    <div>
+      <h2>It's {props.temp}C in {props.location}</h2>
+    </div>
+  );
+};
 
 
 // Using stateless functional components but now with arrow functions and
