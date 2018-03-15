@@ -18,6 +18,8 @@ var Examples = React.createClass({
           </li>ß
         </ol>ß
         {something}
+        {something}
+        {something}
       </div>
     );
   }
