@@ -18,6 +18,8 @@ var Examples = React.createClass({
           </li>
         </ol>
         {main brancho stuff}
+        {more main brancho stuff}
+        {more ßmain brancho stuff}
       </div>
     );
   }
