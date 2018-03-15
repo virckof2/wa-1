@@ -15,18 +15,16 @@ var Examples = React.createClass({
           </li>
           <li>
             <Link to='/?location=Bogota'>Bogota, Colombia</Link>
-          </li>
-        </ol>
-        {main brancho stuff}
-        {more main brancho stuff}
-        {more ßmain brancho stuff}
+          </li>ß
+        </ol>ß
+        {trying rebase now}
       </div>
     );
   }
 });
 
 // Using stateless functional components with arrow functions
-// -----------------------------------------
+// ----------------------ß-------------------
 // var Examples = (props) =>{
 //   return(
 //     <div>
