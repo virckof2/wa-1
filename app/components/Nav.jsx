@@ -18,6 +18,9 @@ var Nav = React.createClass({
       this.refs.search.value ='';
       // Adds parameter to the URI and redirects
       window.location.hash= '#/?location='+encodedSearch;
+      <p>More feature 99 Code</p>
+      <p>More feature 99 Code</p>
+      <p>More feature 99 Code</p>
     }
   },
   render: function (){
