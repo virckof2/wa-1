@@ -17,9 +17,7 @@ var Examples = React.createClass({
             <Link to='/?location=Bogota'>Bogota, Colombia</Link>
           </li>ß
         </ol>ß
-        {trying rebase now}
-        {trying rebase 2}
-        {trying rebase 3}
+        {something}
       </div>
     );
   }
