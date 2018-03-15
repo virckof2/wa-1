@@ -17,7 +17,7 @@ var ErrorModal = React.createClass({
         <p>{message}</p>
         <p>
           <adding new button to feature56></adding>
-          <button className="button" data-close="">Okay</button>
+        <button cclassName="button" data-close="">Okay</button>
         </p>
       </div>
     );
@@ -30,9 +30,6 @@ var ErrorModal = React.createClass({
           <p>
             <button className="button" data-close="">Okay</button>
             <button className="button" data-close="">Okay</button>
-            <button className="button" data-close="">Okay</button>
-            <button className="button" data-close="">Okay</button>
-            <button className="button" data-close="">Okay</button>
           </p>
         </div>
       );
@@ -42,6 +39,7 @@ var ErrorModal = React.createClass({
           <div id="error-modal" className="reveal tiny text-center" data-reveal="">
             <h4>{title}</h4>
             <p>{message}</p>
+            <p>Feature 99 Code</p>
           </div>
         );
     // JQuery

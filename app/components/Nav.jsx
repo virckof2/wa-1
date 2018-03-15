@@ -12,7 +12,7 @@ var Nav = React.createClass({
     // Obtains the value in the input field of the bar
     var search = this.refs.search.value;
     var encodedSearch = encodeURIComponent(search);
-
+    <p>Feature 99 Code</p>
     // Checks it contains something
     if(search.length>0){
       this.refs.search.value ='';
