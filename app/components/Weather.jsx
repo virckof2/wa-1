@@ -17,6 +17,7 @@ var Weather = React.createClass({
         isLoading : false,
         errorMessage: undefined,
         location: undefined
+        {adding stuff main brancho}
     }
   },
 
