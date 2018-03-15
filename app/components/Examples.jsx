@@ -17,6 +17,9 @@ var Examples = React.createClass({
             <Link to='/?location=Bogota'>Bogota, Colombia</Link>
           </li>ß
         </ol>ß
+        {something}
+        {something}
+        {something}
       </div>
     );
   }
