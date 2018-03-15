@@ -20,6 +20,8 @@ var Nav = React.createClass({
       // Adds parameter to the URI and redirects
       window.location.hash= '#/?location='+encodedSearch;
       window.location.hash= '#/?location='+encodedSearch;
+      window.location.hash= '#/?location='+encodedSearch;
+      window.location.hash= '#/?location='+encodedSearch;
     }
   },
   render: function (){
