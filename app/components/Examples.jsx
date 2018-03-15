@@ -25,6 +25,8 @@ var Examples = React.createClass({
   }
 });
 
+new code in feature 99
+
 // Using stateless functional components with arrow functions
 // -----------------------------------------
 // var Examples = (props) =>{
