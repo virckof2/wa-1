@@ -19,6 +19,7 @@ var Examples = React.createClass({
         </ol>ß
         {trying rebase now}
         {trying rebase 2}
+        {trying rebase 3}
       </div>
     );
   }
