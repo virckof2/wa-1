@@ -9,6 +9,7 @@ var Nav = React.createClass({
   onSearch: function(e){
     e.preventDefault();
 
+
     // Obtains the value in the input field of the bar
     var search = this.refs.search.value;
     var encodedSearch = encodeURIComponent(search);
@@ -21,6 +22,9 @@ var Nav = React.createClass({
       <p>More feature 99 Code</p>
       <p>More feature 99 Code</p>
       <p>More feature 99 Code</p>
+      window.location.hash= '#/?location='+encodedSearch;
+      window.location.hash= '#/?location='+encodedSearch;
+      window.location.hash= '#/?location='+encodedSearch;
     }
   },
   render: function (){
