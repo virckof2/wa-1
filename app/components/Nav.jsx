@@ -8,9 +8,7 @@ var Nav = React.createClass({
  // Handles the search event from the search bar
   onSearch: function(e){
     e.preventDefault();
-    {something}
-    {something}
-    {something}
+
 
     // Obtains the value in the input field of the bar
     var search = this.refs.search.value;
